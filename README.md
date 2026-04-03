@@ -49,12 +49,6 @@ profile = {
 | Anomaly Detection · Banking Transactions | scikit-learn, IsolationForest, Pipeline | ✅ Complete |
 
 ---
-## 🔬 What I'm Working On
-
-🔴 **Federated Learning · Fraud Detection** — PyTorch, Flower, PySyft · *Research @ University of Malaya*
-🟡 **Real Estate Investment Intelligence** — Python, Streamlit, Folium, DVF API · *Improving*
-🟢 **C++ Quant Library** — Black-Scholes · Monte Carlo · Orderbook · C++17, CMake
-✅ **Anomaly Detection · Banking** — IsolationForest, scikit-learn Pipeline · *Complete*
 
 ## ⚙️ Technical Stack
 

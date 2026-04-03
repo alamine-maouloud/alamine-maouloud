@@ -28,7 +28,7 @@ profile = {
     "exchange"   : "Quantitative Finance @ University of Oslo (UiO) — Sept 2026",
     "research"   : "Federated Learning for Financial Fraud Detection @ University of Malaya",
     "target"     : ["Quant Finance", "ML Engineering", "Data Science"],
-    "open_to"    : "6-month internship · Paris / Singapore / Hong Kong / Bangkok / Oslo",
+    "open_to"    : "6-month internship · Paris / Singapore / Hong Kong / London / Oslo / UAE",
     "languages"  : ["French (native)", "English (C1)", "Arabic (B2)"],
 }
 ```

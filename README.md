@@ -123,15 +123,11 @@ profile = {
 
 ---
 
-## 📈 GitHub Stats
+## 📊 Activity
 
-<div align="center">
+![](https://komarev.com/ghpvc/?username=alamine-maouloud&style=flat-square&color=302b63)
 
-![Al-Amine's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Alamine1209&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Alamine1209&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9)
-
-</div>
+> 6 projects shipped · C++ · Python · Research-grade ML · 3 internships
 
 ---
 

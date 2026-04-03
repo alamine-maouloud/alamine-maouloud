@@ -83,7 +83,7 @@ profile = {
 
 ## 🚀 Featured Projects
 
-### 🏦 Quant Finance — C++ Library
+### 🏦 Quant Finance : C++ Library
 > Three production-grade financial engineering tools built from scratch in C++17
 
 | Repo | Description | Key Concepts |

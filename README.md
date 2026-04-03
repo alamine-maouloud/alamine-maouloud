@@ -151,8 +151,8 @@ profile = {
 
 ```
 Apr 2026 – Sep 2026  │  Research · Federated Learning   │  University of Malaya, KL
-Jul 2025 – Sep 2025  │  Data Engineer Assistant          │  RATP, Paris
-May 2024 – Aug 2024  │  Summer Internship                │  BNP Paribas, Nice
+Jul 2025 – Sep 2025  │  Data Engineer Assistant         │  RATP, Paris
+May 2024 – Aug 2024  │  Summer Internship               │  BNP Paribas, Nice
 ```
 
 ---

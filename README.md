@@ -123,14 +123,6 @@ profile = {
 
 ---
 
-## 📊 Activity
-
-![](https://komarev.com/ghpvc/?username=alamine-maouloud&style=flat-square&color=302b63)
-
-> 6 projects shipped · C++ · Python · Research-grade ML · 3 internships
-
----
-
 ## 🎓 Education & Certifications
 
 | Institution | Program | Period |

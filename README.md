@@ -33,7 +33,7 @@ profile = {
 }
 ```
 
-> I build end-to-end quantitative and ML systems — from **C++ pricing engines** and **Monte Carlo simulators**
+> I build end-to-end quantitative and ML systemsfrom **C++ pricing engines** and **Monte Carlo simulators**
 > to **Federated Learning fraud detection** and **real-time orderbook engines**.
 > I care about correctness, performance, and shipping things that work.
 

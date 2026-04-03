@@ -50,12 +50,11 @@ profile = {
 
 ---
 ## 🔬 What I'm Working On
-```
-▶ Federated Learning · Fraud Detection   [Research @ UM]      PyTorch · Flower · XGBoost
-▶ Real Estate Investment Intelligence    [Improving]          Python · Streamlit · Folium  
-▶ C++ Quant Library (BS · MC · OB)       [Active]             C++17 · CMake · GoogleTest
-✓ Anomaly Detection · Banking            [Complete]           IsolationForest · Pipeline
-```
+
+🔴 **Federated Learning · Fraud Detection** — PyTorch, Flower, PySyft · *Research @ University of Malaya*
+🟡 **Real Estate Investment Intelligence** — Python, Streamlit, Folium, DVF API · *Improving*
+🟢 **C++ Quant Library** — Black-Scholes · Monte Carlo · Orderbook · C++17, CMake
+✅ **Anomaly Detection · Banking** — IsolationForest, scikit-learn Pipeline · *Complete*
 
 ## ⚙️ Technical Stack
 

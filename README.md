@@ -43,7 +43,7 @@ profile = {
 | Project | Stack | Status |
 |---|---|---|
 | mcrisk · Monte Carlo Risk Engine | Python, C++17, pybind11 | 🟢 Active |
-| AI-Driven Quantum Gate Calibration | QuTiP, Stable-Baselines3 | 🟡 Running experiments |
+| AI-Driven Quantum Gate Calibration | Deep RL, QuTiP, Stable-Baselines3 | 🟡 Running experiments |
 | NICU Clinical Research Data Platform | Streamlit, SQLite, DuckDB, local LLM | ✅ Delivered |
 | Federated Learning · Financial Fraud Detection | PyTorch, Flower, PySyft, XGBoost | 🟢 Active |
 | Real Estate Investment Intelligence Platform | Python, Streamlit, Folium, DVF API | 🟡 Improving |
@@ -101,11 +101,11 @@ profile = {
 ---
 
 ### ⚛️ AI-Driven Quantum Gate Calibration
-> Robust two-qubit CZ gate under device parameter drift, combining optimal control and reinforcement learning
+> AI-driven calibration of a two-qubit CZ gate: deep reinforcement learning agents adapt optimal-control pulses to each device's parameter drift
 
 - **GRAPE** optimal control (QuTiP) computes the baseline pulses on the nominal Hamiltonian
-- **Residual RL** (SAC, TD3, DDPG, PPO) corrects the pulses for each device in a 20-mode cosine basis
-- Benchmarked on an ensemble of 100 noisy devices against optimal control alone
+- **AI (deep reinforcement learning)**: four agents (SAC, TD3, DDPG, PPO) learn to correct the pulses for each device in a 20-mode cosine basis
+- AI-corrected pulses benchmarked against optimal control alone on an ensemble of 100 noisy devices
 - **Stack**: Python, QuTiP, Gymnasium, Stable-Baselines3 · [View project](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/quantum-gate-calibration)
 
 ---

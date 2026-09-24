@@ -119,7 +119,6 @@
 | Project | In one sentence | Built with |
 |---|---|---|
 | 🔐 **Federated fraud detection** | Detecting fraud across several banks **without sharing their customers' data** | PyTorch · Flower · XGBoost |
-| 🏙️ [**Real estate investment analysis**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/real-estate-investment-analysis) | Finding the French cities with the **best rental yield** from public sales data | Python · Pandas · Folium |
 | 🚨 [**Card & payment fraud detection**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/card-payment-fraud-detection) | Catches **85% of fraud cases** while analysts review only 0.2% of transactions, and **explains every alert** | scikit-learn · Streamlit |
 
 ---
@@ -145,7 +144,7 @@
 | | School | Program | Period |
 |:---:|---|---|---|
 | 🇳🇴 | **University of Oslo** | Quantitative Finance (Exchange) | Sept 2026 – Jan 2027 |
-| 🇫🇷 | **ECE Paris** | Engineering Degree · Data & AI (M2) | 2024 – 2026 |
+| 🇫🇷 | **ECE Paris** | Engineering Degree · Data & AI (M2) | 2024 – 2027 |
 | 🇫🇷 | **Saint-Joseph High School** | Preparatory Classes · Physics, Chemistry, Engineering | 2022 – 2024 |
 
 **Certifications:** Generative AI & LLMs (IBM) · Financial Markets (Yale) · Data Analysis L2 (DataScientist) · Cloud Fundamentals · Project Management (Centrale Lille)

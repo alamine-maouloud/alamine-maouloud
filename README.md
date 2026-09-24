@@ -7,13 +7,13 @@
 
 <div align="center">
 
-### `M2 Data & AI · ECE Paris` &nbsp;|&nbsp; `Quant Finance · UiO Oslo` &nbsp;|&nbsp; `Research · University of Malaya`
+### `M2 Data & AI · ECE Paris` &nbsp;|&nbsp; `Quant Finance · UiO Oslo`
 
 **Building at the intersection of Machine Learning, Quantitative Finance, and Systems Engineering**
 
 [![Email](https://img.shields.io/badge/Email-maouloudalamines%40outlook.fr-0f0c29?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:maouloudalamines@outlook.fr)
-[![GitHub](https://img.shields.io/badge/GitHub-Alamine1209-302b63?style=flat-square&logo=github&logoColor=white)](https://github.com/Alamine1209)
-[![Location](https://img.shields.io/badge/📍-Paris%20→%20KL%20→%20Oslo-24243e?style=flat-square)](/)
+[![GitHub](https://img.shields.io/badge/GitHub-alamine--maouloud-302b63?style=flat-square&logo=github&logoColor=white)](https://github.com/alamine-maouloud)
+[![Location](https://img.shields.io/badge/📍-Paris%20→%20Oslo-24243e?style=flat-square)](/)
 
 </div>
 
@@ -26,14 +26,13 @@ profile = {
     "name"       : "Al-Amine Maouloud",
     "degree"     : "M2 Engineering – Data & AI @ ECE Paris (100% English)",
     "exchange"   : "Quantitative Finance @ University of Oslo (UiO) — Sept 2026",
-    "research"   : "Federated Learning for Financial Fraud Detection @ University of Malaya",
     "target"     : ["Quant Finance", "ML Engineering", "Data Science"],
     "open_to"    : "6-month internship · Paris / Singapore / Hong Kong / London / Oslo / UAE",
     "languages"  : ["French (native)", "English (C1)", "Arabic (B2)"],
 }
 ```
 
-> I build end-to-end quantitative and ML systemsfrom **C++ pricing engines** and **Monte Carlo simulators**
+> I build end-to-end quantitative and ML systems, from **C++ pricing engines** and **Monte Carlo simulators**
 > to **Federated Learning fraud detection** and **real-time orderbook engines**.
 > I care about correctness, performance, and shipping things that work.
 
@@ -43,9 +42,11 @@ profile = {
 
 | Project | Stack | Status |
 |---|---|---|
-| Federated Learning · Financial Fraud Detection | PyTorch, Flower, PySyft, XGBoost | 🟢 Active (Research @ UM) |
+| mcrisk · Monte Carlo Risk Engine | Python, C++17, pybind11 | 🟢 Active |
+| AI-Driven Quantum Gate Calibration | QuTiP, Stable-Baselines3 | 🟡 Running experiments |
+| NICU Clinical Research Data Platform | Streamlit, SQLite, DuckDB, local LLM | ✅ Delivered |
+| Federated Learning · Financial Fraud Detection | PyTorch, Flower, PySyft, XGBoost | 🟢 Active |
 | Real Estate Investment Intelligence Platform | Python, Streamlit, Folium, DVF API | 🟡 Improving |
-| C++ Quant Library (BS · MC · Orderbook) | C++17, CMake, GoogleTest | 🟢 Active |
 | Anomaly Detection · Banking Transactions | scikit-learn, IsolationForest, Pipeline | ✅ Complete |
 
 ---
@@ -57,6 +58,7 @@ profile = {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Black-Scholes](https://img.shields.io/badge/Black--Scholes-pricing-302b63?style=flat-square)
 ![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-simulation-302b63?style=flat-square)
+![pybind11](https://img.shields.io/badge/pybind11-C%2B%2B%20↔%20Python-302b63?style=flat-square)
 ![Time Series](https://img.shields.io/badge/Time%20Series-modeling-302b63?style=flat-square)
 
 **Machine Learning & AI**
@@ -65,6 +67,8 @@ profile = {
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
 ![Federated Learning](https://img.shields.io/badge/Federated%20Learning-Flower%2FPySyft-24243e?style=flat-square)
+![Reinforcement Learning](https://img.shields.io/badge/RL-Stable--Baselines3-24243e?style=flat-square)
+![QuTiP](https://img.shields.io/badge/QuTiP-quantum%20control-302b63?style=flat-square)
 
 **Data Engineering**
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -72,6 +76,7 @@ profile = {
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![ETL](https://img.shields.io/badge/ETL%2FELT-pipelines-302b63?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 
 **Infrastructure**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -83,24 +88,45 @@ profile = {
 
 ## 🚀 Featured Projects
 
-### 🏦 Quant Finance : C++ Library
-> Three production-grade financial engineering tools built from scratch in C++17
+### 🏦 mcrisk · Monte Carlo Risk Engine
+> Credit, market, counterparty and market-microstructure risk in one engine, every model validated against closed-form results
 
-| Repo | Description | Key Concepts |
-|---|---|---|
-| [`black-scholes-pricer`](https://github.com/Alamine1209/ACADEMIC-PROJECTS-) | European option pricing with full Greeks (Δ, Γ, ν, Θ) | Closed-form BS, CLI interface |
-| [`monte-carlo-simulator`](https://github.com/Alamine1209/ACADEMIC-PROJECTS-) | GBM asset trajectories + variance reduction | MC convergence, antithetic variates |
-| [`orderbook-engine`](https://github.com/Alamine1209/ACADEMIC-PROJECTS-) | Limit orderbook with price-time priority matching | `unordered_map`, `priority_queue`, FIFO |
+- **Credit**: multi-factor Gaussian and Student-t copulas, VaR / ES 99.9%, Euler allocation, Basel IRB comparison; importance sampling cuts the variance of ES by ~750×
+- **Market (FRTB IMA)**: filtered historical simulation (GARCH), 10-day ES 97.5%, Kupiec and Christoffersen backtests
+- **Counterparty**: Hull-White exposures, CSA collateral, CVA / DVA with wrong-way risk
+- **Microstructure**: C++ price-time priority order book simulating 15M events/s, Hawkes order flow, Almgren-Chriss execution
+- **Performance**: C++ kernels exposed through pybind11, up to ×5 faster than NumPy · 76 tests
+- **Stack**: Python, C++17, pybind11, NumPy · [View project](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/monte-carlo-risk-engine)
 
 ---
 
-### 🔐 Federated Learning · Fraud Detection *(Research — University of Malaya)*
+### ⚛️ AI-Driven Quantum Gate Calibration
+> Robust two-qubit CZ gate under device parameter drift, combining optimal control and reinforcement learning
+
+- **GRAPE** optimal control (QuTiP) computes the baseline pulses on the nominal Hamiltonian
+- **Residual RL** (SAC, TD3, DDPG, PPO) corrects the pulses for each device in a 20-mode cosine basis
+- Benchmarked on an ensemble of 100 noisy devices against optimal control alone
+- **Stack**: Python, QuTiP, Gymnasium, Stable-Baselines3 · [View project](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/quantum-gate-calibration)
+
+---
+
+### 🏥 NICU Clinical Research Data Platform
+> Clinical session logger and analytics platform for neonatal music-therapy research
+
+- 71-field schema, SQLite (transactions) + DuckDB (analytics), 3-layer validation, de-identified exports, append-only audit trail
+- Local LLM (Llama 3 via Ollama): text-to-SQL and RAG with guardrails, so no clinical data leaves the site
+- Companion desktop app (**NeoRhythm**) delivering randomized auditory protocols during EEG sessions
+- **Stack**: Python, Streamlit, SQLite, DuckDB, Ollama, ChromaDB · [View platform](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-research-data-platform) · [View NeoRhythm](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-auditory-stimulation-app)
+
+---
+
+### 🔐 Federated Learning · Fraud Detection *(Research internship)*
 > Privacy-preserving ML applied to financial transaction fraud — trained on distributed data without centralization
 
 - Implemented FL pipeline with **Flower** and **PySyft** across simulated distributed clients
 - Models: **XGBoost** + **PyTorch** neural nets on financial time-series features
 - Achieved comparable F1 to centralized baseline while preserving full data privacy
-- Directly applicable to regulatory-compliant AI in banking (GDPR, MAS, BNM)
+- Directly applicable to regulatory-compliant AI in banking (GDPR, MAS)
 
 ---
 
@@ -138,7 +164,7 @@ profile = {
 ## 💼 Experience
 
 ```
-Apr 2026 – Sep 2026  │  Research · Federated Learning   │  University of Malaya, KL
+Apr 2026 – Sep 2026  │  Research Intern · Federated Learning
 Jul 2025 – Sep 2025  │  Data Engineer Assistant         │  RATP, Paris
 May 2024 – Aug 2024  │  Summer Internship               │  BNP Paribas, Nice
 ```
@@ -147,7 +173,7 @@ May 2024 – Aug 2024  │  Summer Internship               │  BNP Paribas, Ni
 
 <div align="center">
 
-*Open to internship opportunities · Quant / AI / ML · Jannuary 2027*
+*Open to internship opportunities · Quant / AI / ML · January 2027*
 
 **`maouloudalamines@outlook.fr`**
 

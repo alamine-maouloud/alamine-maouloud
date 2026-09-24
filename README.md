@@ -111,7 +111,7 @@
 |---|---|---|
 | 🔐 **Federated fraud detection** | Detecting fraud across several banks **without sharing their customers' data** | PyTorch · Flower · XGBoost |
 | 🏙️ [**Real estate investment analysis**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/real-estate-investment-analysis) | Finding the French cities with the **best rental yield** from public sales data | Python · Pandas · Folium |
-| 🚨 [**Banking anomaly detection**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/banking-anomaly-detection) | Flagging **suspicious bank transactions** automatically, with a dashboard for analysts | scikit-learn · Streamlit |
+| 🚨 [**Card & payment fraud detection**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/card-payment-fraud-detection) | Catches **85% of fraud cases** while analysts review only 0.2% of transactions, and **explains every alert** | scikit-learn · Streamlit |
 
 ---
 

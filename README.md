@@ -42,7 +42,7 @@ profile = {
 
 | Project | Stack | Status |
 |---|---|---|
-| mcrisk · Monte Carlo Risk Engine | Python, C++17, pybind11 | 🟢 Active |
+| mcrisk · Monte Carlo Risk Engine · Black-Scholes · Limit Order Book | Python, C++17, pybind11 | 🟢 Active |
 | AI-Driven Quantum Gate Calibration | Deep RL, QuTiP, Stable-Baselines3 | 🟡 Running experiments |
 | NICU Clinical Research Data Platform | Streamlit, SQLite, DuckDB, local LLM | ✅ Delivered |
 | Federated Learning · Financial Fraud Detection | PyTorch, Flower, PySyft, XGBoost | 🟢 Active |
@@ -88,12 +88,13 @@ profile = {
 
 ## 🚀 Featured Projects
 
-### 🏦 mcrisk · Monte Carlo Risk Engine
+### 🏦 mcrisk · Monte Carlo Risk Engine · Black-Scholes · Limit Order Book
 > Credit, market, counterparty and market-microstructure risk in one engine, every model validated against closed-form results
 
 - **Credit**: multi-factor Gaussian and Student-t copulas, VaR / ES 99.9%, Euler allocation, Basel IRB comparison; importance sampling cuts the variance of ES by ~750×
 - **Market (FRTB IMA)**: filtered historical simulation (GARCH), 10-day ES 97.5%, Kupiec and Christoffersen backtests
 - **Counterparty**: Hull-White exposures, CSA collateral, CVA / DVA with wrong-way risk
+- **Pricing**: Black-Scholes pricer with full Greeks (C++ CLI), variance-reduced Monte Carlo, American options (Longstaff-Schwartz), Heston
 - **Microstructure**: C++ price-time priority order book simulating 15M events/s, Hawkes order flow, Almgren-Chriss execution
 - **Performance**: C++ kernels exposed through pybind11, up to ×5 faster than NumPy · 76 tests
 - **Stack**: Python, C++17, pybind11, NumPy · [View project](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/monte-carlo-risk-engine)

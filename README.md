@@ -1,156 +1,153 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=190&section=header&text=Al-Amine%20Maouloud&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Quantitative%20Finance%20%C2%B7%20Machine%20Learning%20%C2%B7%20C%2B%2B&descSize=18&descAlignY=58&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=190&section=header&text=Al-Amine%20Maouloud&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%C2%B7%20Quantitative%20Finance&descSize=20&descAlignY=58&animation=fadeIn" />
 
-<a href="https://github.com/alamine-maouloud/projects_finance-ai">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1300&color=8B7CF6&center=true&vCenter=true&width=640&lines=Monte+Carlo+risk+engine+in+Python+%2B+C%2B%2B;Credit+%C2%B7+Market+%C2%B7+Counterparty+%C2%B7+Microstructure;Deep+RL+for+quantum+gate+calibration;Open+to+internships+from+January+2027" alt="Typing SVG" />
-</a>
-
-`M2 Data & AI · ECE Paris` &nbsp;·&nbsp; `Quantitative Finance · University of Oslo`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=8B7CF6&center=true&vCenter=true&width=680&lines=I+build+the+risk+models+banks+rely+on;Python+%2B+C%2B%2B%2C+every+result+checked+against+exact+formulas;I+apply+AI+to+hard+scientific+problems;Looking+for+an+internship+from+January+2027" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/Email-maouloudalamines%40outlook.fr-0f0c29?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:maouloudalamines@outlook.fr)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Al--Amine%20Maouloud-302b63?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/al-amine-maouloud-412a89249)
-[![Projects](https://img.shields.io/badge/All%20projects-projects__finance--ai-24243e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alamine-maouloud/projects_finance-ai)
-
-</div>
-
-<br>
-
-<div align="center">
-
-| 🎯 **~750×** | ⚡ **15M / s** | 🚀 **×5** | ⚛️ **100** | ✅ **76** |
-|:---:|:---:|:---:|:---:|:---:|
-| variance reduction<br>on ES 99.9% | order-book events<br>simulated per second | C++ kernel speed-up<br>vs NumPy | noisy qubit devices<br>in the RL benchmark | tests validating<br>the risk engine |
+[![Projects](https://img.shields.io/badge/See%20all%20my%20projects-24243e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alamine-maouloud/projects_finance-ai)
 
 </div>
 
 ---
 
-## 👤 About Me
+## 👋 My profile in 30 seconds
 
-```python
-profile = {
-    "name"      : "Al-Amine Maouloud",
-    "degree"    : "M2 Engineering, Data & AI @ ECE Paris (100% English)",
-    "exchange"  : "Quantitative Finance @ University of Oslo, Autumn 2026",
-    "focus"     : ["Quant Finance", "ML Engineering", "Data Science"],
-    "open_to"   : "6-month internship from January 2027 · Paris / London / Singapore / Hong Kong / Oslo / UAE",
-    "languages" : ["French (native)", "English (C1)", "Arabic (B2)"],
-}
-```
+- 🎓 **Who I am:** final-year engineering student (M2 Data & AI) at **ECE Paris**, on exchange in **Quantitative Finance** at the **University of Oslo**.
+- 🏦 **What I build:** the models banks use to measure risk and price financial products, plus AI systems and research software used by real teams.
+- ⭐ **What makes me different:** I code in both **Python and C++**, and I check every model against a known exact answer before trusting it.
+- 🎯 **What I'm looking for:** a **6-month internship from January 2027** in quantitative finance, risk, or AI (Paris, London, Singapore, Hong Kong, Oslo, UAE).
 
-> I build end-to-end quantitative and ML systems, from **risk engines in Python and C++** to **AI agents that calibrate quantum gates**.
-> Every model I ship is checked against a closed-form answer or a reference implementation. Correctness first, then speed.
+<div align="center">
+
+| 🏦 **3 in 1** | ⚡ **×5** | 📈 **15M / s** | ✅ **76** | 🤖 **4** |
+|:---:|:---:|:---:|:---:|:---:|
+| bank risks covered<br>by one engine | faster thanks<br>to C++ | stock-market orders<br>simulated per second | automated tests<br>proving the results | AI agents compared<br>on quantum chips |
+
+</div>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏦 mcrisk · Monte Carlo Risk Engine · Black-Scholes · Limit Order Book
-> Credit, market, counterparty and market-microstructure risk in one engine, every model validated against closed-form results
+### 🏦 mcrisk · A risk engine for banks
+**Monte Carlo · Black-Scholes · Limit Order Book** &nbsp;|&nbsp; `Python` `C++`
 
-| Module | Highlights |
-|---|---|
-| **Credit** | Multi-factor Gaussian and Student-t copulas, VaR / ES 99.9%, Euler allocation, Basel IRB comparison, importance sampling (~750× variance reduction) |
-| **Market (FRTB IMA)** | Filtered historical simulation (GARCH), 10-day ES 97.5%, Kupiec and Christoffersen backtests |
-| **Counterparty** | Hull-White exposures, CSA collateral, CVA / DVA with wrong-way risk |
-| **Pricing** | Black-Scholes pricer with full Greeks (C++ CLI), variance-reduced Monte Carlo, Longstaff-Schwartz, Heston |
-| **Microstructure** | C++ price-time priority order book (15M events/s), Hawkes order flow, Almgren-Chriss execution |
+> **The problem.** A bank must know how much it could lose if borrowers default, if markets crash, or if a trading partner goes bankrupt, and it must hold enough capital to survive it.
+>
+> **What I built.** One engine that simulates millions of possible futures and computes these losses with the methods regulators require (Basel, FRTB). It also prices options with **Black-Scholes** and simulates a **stock-exchange order book**.
+>
+> **Why it matters.** Every result is checked against an exact formula (76 automated tests), and the heavy computations run in C++, up to **5× faster**.
 
-**Stack:** Python · C++17 · pybind11 · NumPy &nbsp;→&nbsp; [**View project**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/monte-carlo-risk-engine)
-
+<details>
+<summary><b>🔍 Technical details</b></summary>
 <br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚛️ AI-Driven Quantum Gate Calibration
-
-Deep reinforcement learning agents adapt optimal-control pulses of a **two-qubit CZ gate** to each device's parameter drift.
-
-- **GRAPE** optimal control (QuTiP) as baseline
-- **4 AI agents** (SAC, TD3, DDPG, PPO) learn per-device pulse corrections
-- Benchmarked on **100 noisy devices**
-
-`Python` `QuTiP` `Gymnasium` `Stable-Baselines3`
-
-[**View project →**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/quantum-gate-calibration)
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 NICU Clinical Research Data Platform
-
-Session logger and analytics platform for **neonatal music-therapy research**, with a local LLM so no clinical data leaves the site.
-
-- 71-field schema, **SQLite + DuckDB**, audit trail
-- **Local LLM** (Llama 3): text-to-SQL and RAG
-- Companion desktop app **NeoRhythm** for EEG sessions
-
-`Python` `Streamlit` `DuckDB` `Ollama` `ChromaDB`
-
-[**Platform →**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-research-data-platform) &nbsp; [**NeoRhythm →**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-auditory-stimulation-app)
-
-</td>
-</tr>
-</table>
-
-### 📂 More Projects
-
-| Project | What it does | Stack |
+| Module | What it computes | Techniques |
 |---|---|---|
-| 🔐 **Federated Learning · Fraud Detection** | Privacy-preserving fraud detection across distributed clients, F1 comparable to a centralized baseline | PyTorch · Flower · PySyft · XGBoost |
-| 🏙️ [**Real Estate Investment Intelligence**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/real-estate-investment-analysis) | Rental yield and price/m² per municipality from DVF sales data, interactive map | Python · Pandas · Streamlit · Folium |
-| 🚨 [**Banking Anomaly Detection**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/banking-anomaly-detection) | Unsupervised fraud detection (AUC-ROC 0.90) with an investigation dashboard | scikit-learn · Isolation Forest · Streamlit |
+| **Credit risk** | Loss distribution, VaR / ES 99.9%, economic capital | Gaussian and Student-t copulas, Euler allocation, Basel IRB comparison, importance sampling (~750× variance reduction) |
+| **Market risk (FRTB)** | 10-day VaR and Expected Shortfall | Filtered historical simulation (GARCH), Kupiec and Christoffersen backtests |
+| **Counterparty risk** | Exposure profiles, CVA / DVA | Hull-White model, CSA collateral, wrong-way risk |
+| **Pricing** | Option prices and Greeks | Black-Scholes (C++ CLI), variance-reduced Monte Carlo, Longstaff-Schwartz, Heston |
+| **Microstructure** | Order book dynamics, execution cost | C++ price-time priority matching (15M events/s), Hawkes order flow, Almgren-Chriss |
 
-<div align="center">
+</details>
 
-[**→ Browse all projects**](https://github.com/alamine-maouloud/projects_finance-ai)
+[**→ View the project**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/monte-carlo-risk-engine)
 
-</div>
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cpp,python,c,java,php,cmake&theme=dark" />
 <br>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,sqlite,postgres,git,linux&theme=dark" />
 
-<br><br>
+### ⚛️ AI that calibrates quantum computers
+**Deep Reinforcement Learning · Quantum Control** &nbsp;|&nbsp; `Python`
 
-![pybind11](https://img.shields.io/badge/pybind11-C%2B%2B%20%E2%86%94%20Python-302b63?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square)
-![Stable-Baselines3](https://img.shields.io/badge/Stable--Baselines3-deep%20RL-24243e?style=flat-square)
-![QuTiP](https://img.shields.io/badge/QuTiP-quantum%20control-302b63?style=flat-square)
-![Flower](https://img.shields.io/badge/Flower-federated%20learning-24243e?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+> **The problem.** Quantum computers are fragile: every chip is slightly different, so control signals tuned for an ideal chip lose precision on a real one.
+>
+> **What I built.** AI agents that learn to adjust the control signals chip by chip, on top of a classical optimization method. I compared **4 AI algorithms** on **100 simulated chips**.
+>
+> **Why it matters.** It shows I can take AI beyond standard datasets and apply it to a hard scientific problem.
 
+<details>
+<summary><b>🔍 Technical details</b></summary>
+<br>
+
+- Target: two-qubit CZ gate on a transmon-like Hamiltonian, with drift on qubit frequencies and coupling
+- Baseline: GRAPE optimal control (QuTiP)
+- AI: residual deep RL (SAC, TD3, DDPG, PPO with Stable-Baselines3) correcting pulses in a 20-mode cosine basis
+- Evaluation: average gate fidelity over an ensemble of 100 noisy devices, versus optimal control alone
+
+</details>
+
+[**→ View the project**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/quantum-gate-calibration)
+
+<br>
+
+### 🏥 Research data platform for a neonatal intensive care study
+**Data Engineering · Local AI assistant** &nbsp;|&nbsp; `Python`
+
+> **The problem.** A clinical research team studying the effect of music on premature babies needed a reliable way to record sessions and analyze the data, without medical data ever leaving the site.
+>
+> **What I built.** A data platform with automatic checks, anonymized exports and a full audit trail, an **AI assistant that runs locally** to answer questions about the data, and a desktop app (**NeoRhythm**) that runs the sound protocols during EEG sessions.
+>
+> **Why it matters.** Software delivered to a real research team, handling sensitive data with the rigor it requires.
+
+<details>
+<summary><b>🔍 Technical details</b></summary>
+<br>
+
+- 71-field schema, SQLite for records and DuckDB for analytics, 3-layer validation
+- Local LLM (Llama 3 via Ollama): text-to-SQL and RAG (ChromaDB) with guardrails
+- NeoRhythm: tkinter + pygame, randomized protocols, CSV / JSON session logs, macOS and Windows builds
+
+</details>
+
+[**→ Platform**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-research-data-platform) &nbsp;·&nbsp; [**→ NeoRhythm**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-auditory-stimulation-app)
+
+---
+
+## 📂 More Projects
+
+| Project | In one sentence | Built with |
+|---|---|---|
+| 🔐 **Federated fraud detection** | Detecting fraud across several banks **without sharing their customers' data** | PyTorch · Flower · XGBoost |
+| 🏙️ [**Real estate investment analysis**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/finance-quant/real-estate-investment-analysis) | Finding the French cities with the **best rental yield** from public sales data | Python · Pandas · Folium |
+| 🚨 [**Banking anomaly detection**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/machine-learning/banking-anomaly-detection) | Flagging **suspicious bank transactions** automatically, with a dashboard for analysts | scikit-learn · Streamlit |
+
+---
+
+## 🧰 Skills
+
+| Area | What I use it for | Tools |
+|---|---|---|
+| 🏦 **Quantitative finance** | Risk measurement, option pricing, simulation | Monte Carlo · Black-Scholes · VaR / ES · CVA |
+| 💻 **Programming** | Fast, tested, production-style code | Python · C++17 · SQL · Java · C |
+| 🤖 **AI & Machine Learning** | Prediction, fraud detection, decision-making agents | PyTorch · scikit-learn · XGBoost · deep RL · LLMs |
+| 🗄️ **Data engineering** | Pipelines, databases, dashboards | Pandas · DuckDB · SQLite · Streamlit |
+
+<div align="center">
+<br>
+<img src="https://skillicons.dev/icons?i=cpp,python,c,java,pytorch,tensorflow,sklearn,sqlite,postgres,git,linux&theme=dark" />
 </div>
 
 ---
 
-## 🎓 Education & Certifications
+## 🎓 Education
 
-| | Institution | Program | Period |
+| | School | Program | Period |
 |:---:|---|---|---|
-| 🇳🇴 | **University of Oslo (UiO)** | Quantitative Finance (Exchange) | Sept 2026 – Jan 2027 |
+| 🇳🇴 | **University of Oslo** | Quantitative Finance (Exchange) | Sept 2026 – Jan 2027 |
 | 🇫🇷 | **ECE Paris** | Engineering Degree · Data & AI (M2) | 2024 – 2026 |
 | 🇫🇷 | **Saint-Joseph High School** | Preparatory Classes · Physics, Chemistry, Engineering | 2022 – 2024 |
 
 **Certifications:** Generative AI & LLMs (IBM) · Financial Markets (Yale) · Data Analysis L2 (DataScientist) · Cloud Fundamentals · Project Management (Centrale Lille)
 
+**Languages:** French (native) · English (C1) · Arabic (B2)
+
 ---
 
 <div align="center">
 
-### 📫 Open to Quant / AI / ML internships from January 2027
+### 📫 Open to Quant / Risk / AI internships from January 2027
 
 [![Email](https://img.shields.io/badge/-maouloudalamines%40outlook.fr-0f0c29?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:maouloudalamines@outlook.fr)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-302b63?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/al-amine-maouloud-412a89249)

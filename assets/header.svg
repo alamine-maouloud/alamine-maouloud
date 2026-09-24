@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7cf6"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <style>
+      .fade { animation: fade 1.2s ease-out both; }
+      .d2 { animation-delay: .4s; }
+      .d3 { animation-delay: .8s; }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      .name { font: 700 58px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; }
+      .sub  { font: 500 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #c4b5fd; letter-spacing: 1px; }
+      .tag  { font: 500 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e0e7ff; opacity: .85; }
+    </style>
+  </defs>
+  <path d="M0 0H1200V205C1050 245 900 190 750 210C600 230 450 250 300 225C180 205 80 215 0 230Z" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#c4b5fd" fill="none" stroke-width="1.5">
+    <path d="M40 170 L110 150 L170 160 L240 120 L300 135 L360 95"/>
+    <path d="M840 110 L900 125 L960 90 L1030 105 L1090 70 L1160 85"/>
+  </g>
+  <g opacity=".25" fill="#c4b5fd">
+    <circle cx="360" cy="95" r="4"/><circle cx="240" cy="120" r="3"/>
+    <circle cx="1090" cy="70" r="4"/><circle cx="960" cy="90" r="3"/>
+  </g>
+  <text x="600" y="105" text-anchor="middle" class="name fade">Al-Amine Maouloud</text>
+  <rect x="540" y="122" width="120" height="3" rx="1.5" fill="url(#accent)" class="fade d2"/>
+  <text x="600" y="160" text-anchor="middle" class="sub fade d2">Data &amp; AI Engineer · Quantitative Finance</text>
+  <text x="600" y="192" text-anchor="middle" class="tag fade d3">M2 Data &amp; AI · ECE Paris  ·  Quantitative Finance · University of Oslo</text>
+</svg>

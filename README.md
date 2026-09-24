@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=190&section=header&text=Al-Amine%20Maouloud&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Data%20%26%20AI%20Engineer%20%C2%B7%20Quantitative%20Finance&descSize=20&descAlignY=58&animation=fadeIn" />
+<img width="100%" src="assets/header.svg" alt="Al-Amine Maouloud · Data & AI Engineer · Quantitative Finance" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=8B7CF6&center=true&vCenter=true&width=680&lines=I+build+the+risk+models+banks+rely+on;Python+%2B+C%2B%2B%2C+every+result+checked+against+exact+formulas;I+apply+AI+to+hard+scientific+problems;Looking+for+an+internship+from+January+2027" alt="Typing SVG" />
 
@@ -152,6 +152,6 @@
 [![Email](https://img.shields.io/badge/-maouloudalamines%40outlook.fr-0f0c29?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:maouloudalamines@outlook.fr)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-302b63?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/al-amine-maouloud-412a89249)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
+<img width="100%" src="assets/footer.svg" alt="" />
 
 </div>

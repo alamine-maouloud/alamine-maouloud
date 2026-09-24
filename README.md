@@ -82,26 +82,35 @@
 
 <br>
 
-### 🏥 Research data platform for a neonatal intensive care study
-**Data Engineering · Local AI assistant** &nbsp;|&nbsp; `Python`
+### 🏥 Private AI assistant for neonatal intensive care research
+**Generative AI · Local LLM · Text-to-SQL · RAG** &nbsp;|&nbsp; `Python`
 
-> **The problem.** A clinical research team studying the effect of music on premature babies needed a reliable way to record sessions and analyze the data, without medical data ever leaving the site.
+> **The problem.** Researchers in a neonatal intensive care study wanted to ask questions about their data in plain English. But medical data about premature babies can never be sent to ChatGPT or any other cloud AI.
 >
-> **What I built.** A data platform with automatic checks, anonymized exports and a full audit trail, an **AI assistant that runs locally** to answer questions about the data, and a desktop app (**NeoRhythm**) that runs the sound protocols during EEG sessions.
+> **What I built.** A **private AI assistant that runs 100% on-site** (Llama 3), with no internet connection. It:
+> - turns a researcher's question into a database query and answers with the result (**text-to-SQL**)
+> - searches clinicians' free-text notes by meaning, not by keywords (**RAG**)
+> - summarises session notes into structured data and **flags missing or inconsistent entries**
 >
-> **Why it matters.** Software delivered to a real research team, handling sensitive data with the rigor it requires.
+> Safety is built in at three levels: medical-advice requests are refused, the AI can only read the data (never change it), and identifying fields are hidden from it. Every AI answer is logged for audit.
+>
+> **Why it matters.** Generative AI deployed where it is hardest: sensitive medical data, no cloud, every answer traceable. The assistant runs on a research data platform I also built, alongside a desktop app (**NeoRhythm**) that plays the sound protocols during EEG sessions.
 
 <details>
 <summary><b>🔍 Technical details</b></summary>
 <br>
 
-- 71-field schema, SQLite for records and DuckDB for analytics, 3-layer validation
-- Local LLM (Llama 3 via Ollama): text-to-SQL and RAG (ChromaDB) with guardrails
-- NeoRhythm: tkinter + pygame, randomized protocols, CSV / JSON session logs, macOS and Windows builds
+- **LLM:** Llama 3 (8B) served locally with Ollama, fully offline
+- **Text-to-SQL:** generated SQL is screened for write operations, then executed through a read-only DuckDB connection
+- **Semantic RAG:** free-text notes embedded with sentence-transformers (all-MiniLM-L6-v2) in ChromaDB, answers synthesised by the LLM
+- **LLM workflows:** note summarisation into structured JSON, LLM-based data-quality checks
+- **Guardrails:** system prompt, read-only driver and de-identified schema, plus an AI audit-trail table
+- **Platform:** Streamlit, SQLite + DuckDB, 71-field schema, 3-layer validation, de-identified exports
+- **NeoRhythm:** tkinter + pygame, randomized protocols, CSV / JSON session logs, macOS and Windows builds
 
 </details>
 
-[**→ Platform**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-research-data-platform) &nbsp;·&nbsp; [**→ NeoRhythm**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-auditory-stimulation-app)
+[**→ Platform & AI assistant**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-research-data-platform) &nbsp;·&nbsp; [**→ NeoRhythm**](https://github.com/alamine-maouloud/projects_finance-ai/tree/main/data-engineering/nicu-auditory-stimulation-app)
 
 ---
 
